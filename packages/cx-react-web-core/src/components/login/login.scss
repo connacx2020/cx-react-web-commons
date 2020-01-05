@@ -1,0 +1,62 @@
+.DN_Login_Container {
+   background-color: #f5b834;
+    border: solid 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+    .card {
+        align-self: center;
+    }
+
+    .DN_Login_Form_Container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-self: center;
+        justify-content: space-around;
+
+
+        .app_name {
+            color: #000000;
+            font-size: 1.3em ;
+        }
+
+        .email_input,.password_input {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .login_btn {
+            margin-top: 15px;
+        }
+
+    }
+
+
+    //for mobile
+    // @media only screen and (min-width: 300px),screen and (max-width:400px)   {
+    //     .DN_Login_Form_Container {
+    //         width: 90%;
+    //         height: 23vh;
+    //     }
+    // }
+
+    // //for desktop
+    // @media only screen and (min-width: 900px)  {
+    //     .DN_Login_Form_Container {
+    //         width: 25%;
+    //     }
+    // }
+
+    // // for low height device
+    // @media only screen and (max-height: 700px)  {
+    //     .DN_Login_Form_Container {
+    //         height: 35vh;
+    //     }
+    // }
+}
